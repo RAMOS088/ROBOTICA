@@ -1,4 +1,4 @@
-"""LW0, Parte 1, §5.1, exercício 4: subir 50 mm em +z com set_position e voltar.
+"""Subir 50 mm em +z com set_position e voltar.
 
 Parte de uma pose desdobrada e afastada de singularidades (J5 != 0), mostra
 quanto rodou cada junta e confirma que o TCP regressa à posição inicial.

@@ -1,4 +1,4 @@
-"""Exemplo 2001-move_joint (xArm 6) adaptado ao Lite 6 - LW0, Parte 1, §6.2.
+"""Exemplo 2001-move_joint (xArm 6) adaptado ao Lite 6.
 
 Alterações face ao original:
   - usa safe_session() (limpa erros, modo reduzido confirmado, IP do robot.yaml);
