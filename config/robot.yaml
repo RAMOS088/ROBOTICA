@@ -1,0 +1,18 @@
+# Configuração do Lite 6 - Grupo 3
+# Unidades: ângulos em graus, velocidades em °/s e mm/s.
+
+ip: "127.0.0.1"             # simulador de firmware; no laboratório: IP da bancada
+
+home: [0, 0, 0, 0, 0, 0]    # pose home (graus), joint1..joint6
+
+reduced:                    # modo reduzido (Parte 1, §3)
+  joint_speed: 54           # °/s  (30 % de 180 °/s)
+  tcp_speed: 150            # mm/s
+
+motion:
+  home_speed: 20            # °/s, velocidade pedida no home()
+
+
+sdk_check_joint_limit: false
+
+lite6_joint_range: [-360, 360, -150, 150, -3.5, 300, -360, 360, -124, 124, -360, 360]
